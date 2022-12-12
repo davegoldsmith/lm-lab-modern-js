@@ -3,6 +3,6 @@
  *  @param {number[]} moreNumbers An array of more numbers
  */
 
-export function allTheNumbers(numbers, moreNumbers) {
-  return [];
-}
+export const allTheNumbers = ((numbers, moreNumbers) => {
+  return [...numbers, ...moreNumbers];
+});
